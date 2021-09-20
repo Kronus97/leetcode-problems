@@ -11,3 +11,9 @@ class Solution:
         return shortest 
 
 solution = Solution()
+
+firstTest = solution.longestCommonPrefix(["flower", "flow", "flight"])
+secondTest = solution.longestCommonPrefix(["dog", "racecar", "car"])
+
+print("['flower', 'flow', 'flight']", " -> ", "✓" if firstTest == "fl" else "✕")
+print("['dog', 'racecar', 'car']", " -> ", "✓" if secondTest == "" else "✕")
